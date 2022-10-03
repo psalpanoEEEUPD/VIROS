@@ -1,0 +1,18 @@
+<routes>
+ <vehicles>
+ <vType id="car" vClass="passenger" length="5" minGap="2.5" accel="2.6" decel="4.5" emergencyDecel="9.0" maxSpeed="55.55" sigma="0.5"/>
+ 
+ <flow id="f121" type="car" begin="0" from="1i" to="2o" vehsPerHour="600"/>
+ <flow id="f141" type="car" begin="0" from="1i" to="4o" vehsPerHour="600"/>
+ 
+ <flow id="f211" type="car" begin="0" from="2i" to="1o" vehsPerHour="600"/>
+ <flow id="f231" type="car" begin="0" from="2i" to="3o" vehsPerHour="600"/>
+ 
+ <flow id="f341" type="car" begin="0" from="3i" to="4o" vehsPerHour="600"/>
+ <flow id="f311" type="car" begin="0" from="3i" to="1o" vehsPerHour="600"/>
+ 
+ <flow id="f431" type="car" begin="0" from="4i" to="3o" vehsPerHour="600"/>
+ <flow id="f421" type="car" begin="0" from="4i" to="2o" vehsPerHour="600"/>
+ 
+ </vehicles>
+</routes>

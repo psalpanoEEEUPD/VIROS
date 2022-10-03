@@ -1,0 +1,13 @@
+<configuration>
+<input>
+ <node-files value="4wayint.nod.xml"/>
+ <edge-files value="4wayint.edg.xml"/>
+ <connection-files value="4wayint.con.xml"/>
+</input>
+<output>
+    <output-file value="4wayint.net.xml"/>
+</output>
+<report>
+     <verbose value="true"/>
+</report>
+</configuration>

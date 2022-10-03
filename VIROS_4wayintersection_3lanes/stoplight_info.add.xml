@@ -1,0 +1,34 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e3Detector id="left_edge" file="stoplight_data.xml" freq="240">
+        <detEntry lane="1i_0" pos="236.40"/>
+        <detEntry lane="1i_1" pos="236.40"/>
+        <detEntry lane="1i_2" pos="236.40"/>
+        <detExit lane="1i_0" pos="-.1"/>
+        <detExit lane="1i_1" pos="-.1"/>
+        <detExit lane="1i_2" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="right_edge" file="stoplight_data.xml" freq="240">
+        <detEntry lane="2i_0" pos="236.40"/>
+        <detEntry lane="2i_1" pos="236.40"/>
+        <detEntry lane="2i_2" pos="236.40"/>
+        <detExit lane="2i_0" pos="-.1"/>
+        <detExit lane="2i_1" pos="-.1"/>
+        <detExit lane="2i_2" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="bottom_edge" file="stoplight_data.xml" freq="240">
+        <detEntry lane="3i_0" pos="236.40"/>
+        <detEntry lane="3i_1" pos="236.40"/>
+        <detEntry lane="3i_2" pos="236.40"/>
+        <detExit lane="3i_0" pos="-.1"/>
+        <detExit lane="3i_1" pos="-.1"/>
+        <detExit lane="3i_2" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="top_edge" file="stoplight_data.xml" freq="240">
+        <detEntry lane="4i_0" pos="236.40"/>
+        <detEntry lane="4i_1" pos="236.40"/>
+        <detEntry lane="4i_2" pos="236.40"/>
+        <detExit lane="4i_0" pos="-.1"/>
+        <detExit lane="4i_1" pos="-.1"/>
+        <detExit lane="4i_2" pos="-.1"/>
+    </e3Detector>
+</additional>
